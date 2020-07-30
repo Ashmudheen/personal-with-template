@@ -6,6 +6,7 @@
     <title>Ashmudheen</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     <link rel="manifest" href="site.webmanifest" />
     <link
       rel="shortcut icon"
@@ -29,7 +30,7 @@
 
   </head>
 
-  <body style="background-image: linear-gradient(#C9D6FF, #E2E2E2)">
+  <body  style="background-image: linear-gradient(#C9D6FF, #E2E2E2);">
     <!-- Preloader Start -->
     <div id="preloader-active">
       <div class="preloader d-flex align-items-center justify-content-center">
@@ -233,7 +234,7 @@
                   </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 gform" method="post"   target="_blank">
-                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScvErpuTksNKUmwl_kmNZ9Pi863G96v6tNvGWULl8vdm5_3Ng/formResponse" target="_blank" method="POST" class="contact-wrapper">
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScvErpuTksNKUmwl_kmNZ9Pi863G96v6tNvGWULl8vdm5_3Ng/formResponse" target="_blank" method="POST" class="contact-wrapper" id="mail">
                       <input type="email" name="entry.419167781" placeholder="Email Address">
                       <input type="text" name="entry.1327840183" placeholder="Full Name">
                         
@@ -301,6 +302,9 @@
 </div>
 
 <!-- JS here -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+<script src="formValidation.js"></script>
 <!-- All JS Custom Plugins Link Here here -->
 <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
@@ -330,7 +334,9 @@
 <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->
+
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
+
 </body>
 </html>
