@@ -10,7 +10,7 @@ $(document).ready(function(){
                 minlength: 4
             }, 
             "entry.1821002953" : {
-                required:true,
+                required:true
             }
                
 
@@ -25,13 +25,20 @@ $(document).ready(function(){
         rules:{
             "entry.1386670624":{
                 required:true,
+                minlength: 10
             },
             "entry.49295349":{
                 required:true,
+                minlength: 4
+               
             },
             "entry.1159669971":{
                 required:true,
                 email:true
+            },
+            "entry.330824075":{
+                required:true,
+                minlength:4
             }
         }
     })
